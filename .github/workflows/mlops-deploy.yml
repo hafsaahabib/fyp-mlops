@@ -1,0 +1,27 @@
+name: 🚀 Auto-Deploy New ML Model
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour (Change as needed)
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  deploy-mlflow:
+    runs-on: ubuntu-latest  # Runs on a cloud server (Linux-based)
+    
+    steps:
+      - name: 📂 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Set Up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install Dependencies
+        run: |
+          pip install mlflow
+          pip install requests  # If your scripts use API calls
+
+      - name: 🔎 Check for New Model & Deploy
+        run: python check_new_model.py
