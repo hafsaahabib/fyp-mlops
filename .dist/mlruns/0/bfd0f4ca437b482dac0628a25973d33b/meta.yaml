@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/PMLS/Desktop/MLFLOW/.dist/mlruns/0/bfd0f4ca437b482dac0628a25973d33b/artifacts
+end_time: 1742311972279
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bfd0f4ca437b482dac0628a25973d33b
+run_name: unruly-bat-8
+run_uuid: bfd0f4ca437b482dac0628a25973d33b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742311953046
+status: 3
+tags: []
+user_id: PMYLS

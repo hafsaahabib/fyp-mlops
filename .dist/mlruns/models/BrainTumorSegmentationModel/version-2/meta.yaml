@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1742312066624
+current_stage: Production
+description: null
+last_updated_timestamp: 1742312819952
+name: BrainTumorSegmentationModel
+run_id: bfd0f4ca437b482dac0628a25973d33b
+run_link: null
+source: file:///C:/Users/PMLS/Desktop/MLFLOW/.dist/mlruns/0/bfd0f4ca437b482dac0628a25973d33b/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/PMLS/Desktop/MLFLOW/.dist/mlruns/0/bfd0f4ca437b482dac0628a25973d33b/artifacts/model
+user_id: null
+version: 2
