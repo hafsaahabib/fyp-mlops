@@ -2,7 +2,7 @@ aliases: []
 creation_timestamp: 1742310957961
 current_stage: Production
 description: null
-last_updated_timestamp: 1742312366395
+last_updated_timestamp: 1742316390221
 name: BrainTumorSegmentationModel
 run_id: 9a8c9cc901fc4bf585ed47704c27a5e8
 run_link: null
